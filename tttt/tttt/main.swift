@@ -52,14 +52,69 @@ if rand3 >= 90 {
 }else if rand3 >= 70 {
     print("C")
 }else if rand3 >= 60 {
-    print("D");
+    print("D")
 }else {
     print("E")
 }
 
+var str1:String? = "Brad"//有？號的是有選項
+if str1 == "Brad"{
+    print("ok")
+}else{
+    print("xx")
+}
+print (str1 as Any)
+str1 = nil
+print (str1 ?? 0)  //預設值
+
+var str2:String = "III"
+
+for i in 1 ... 9 {  //印出1到9
+    print(i)
+}
+
+var sum = 0         //一加到一百的for迴圈
+for i in 1 ... 100{
+    sum += i
+}
+print(sum)
 
 
+var j = 1    //swift 3 沒有加加減減乘乘除除 ex: j++ 是跑不出來的
+j += 1
+print(j)
 
+var (x,y,z) = (1,"brad", true)  //資料形別資料組
+print(y)
+
+var Var9 = "123"
+var Var8:Int? = Int(Var9)
+print (Var8 ?? 0 )
+
+print("Input a number :", terminator: "")
+var n1:String? = readLine() //Optional (String)
+var n2:Int? = Int(n1!)!  // n1! => 強制 加上「!」是強制執行的意思
+
+var sum2 = 0
+for i in 1 ... n2!{
+    sum2 += i
+}
+print(sum2)
+
+
+var i1 = 1   //Int(整數)
+var i2 = 10  //Int(整數)
+for ii in i1 ... i2{
+    print("ok")
+}
+
+for _ in 1 ... 5 {   //直接用「 _ 」 不用給變數var ，在print()直接給值
+    print("kkk")
+}
+
+
+var VarA = 12 + 12.3
+print(VarA)
 
 
 
