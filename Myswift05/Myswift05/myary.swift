@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  myary.swift
 //  Myswift05
 //
 //  Created by user20 on 2017/9/6.
@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
-print("Hello, World!")
-myint()
-myary()
+func myary() {
+    let a1 = [1,2,3]
+    print(type(of:a1))
+ }
