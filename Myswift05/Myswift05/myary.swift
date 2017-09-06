@@ -10,4 +10,6 @@ import Foundation
 func myary() {
     let a1 = [1,2,3]
     print(type(of:a1))
+    let a2:[Any] = [1,2,"brad"]
+    print(type(of:a2))
  }
