@@ -10,6 +10,12 @@
 		3B2A7F5E1F5FDCB800D0A03E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2A7F5D1F5FDCB800D0A03E /* main.swift */; };
 		3B2A7F651F5FDE4900D0A03E /* myint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2A7F641F5FDE4900D0A03E /* myint.swift */; };
 		3B2A7F671F5FE1CB00D0A03E /* myary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2A7F661F5FE1CB00D0A03E /* myary.swift */; };
+		3B2A7F6B1F60F2B900D0A03E /* myary2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2A7F6A1F60F2B900D0A03E /* myary2.swift */; };
+		3B2A7F6D1F6224FD00D0A03E /* poker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2A7F6C1F6224FD00D0A03E /* poker.swift */; };
+		3B2A7F6F1F623EEE00D0A03E /* mystr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2A7F6E1F623EEE00D0A03E /* mystr.swift */; };
+		3BAB87641F66251F009AF9E3 /* mytuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87631F66251F009AF9E3 /* mytuple.swift */; };
+		3BAB87661F662934009AF9E3 /* myset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87651F662934009AF9E3 /* myset.swift */; };
+		3BAB87681F66350A009AF9E3 /* mydic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87671F66350A009AF9E3 /* mydic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +35,12 @@
 		3B2A7F5D1F5FDCB800D0A03E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3B2A7F641F5FDE4900D0A03E /* myint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myint.swift; sourceTree = "<group>"; };
 		3B2A7F661F5FE1CB00D0A03E /* myary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myary.swift; sourceTree = "<group>"; };
+		3B2A7F6A1F60F2B900D0A03E /* myary2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myary2.swift; sourceTree = "<group>"; };
+		3B2A7F6C1F6224FD00D0A03E /* poker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "\bpoker.swift"; sourceTree = "<group>"; };
+		3B2A7F6E1F623EEE00D0A03E /* mystr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mystr.swift; sourceTree = "<group>"; };
+		3BAB87631F66251F009AF9E3 /* mytuple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mytuple.swift; sourceTree = "<group>"; };
+		3BAB87651F662934009AF9E3 /* myset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myset.swift; sourceTree = "<group>"; };
+		3BAB87671F66350A009AF9E3 /* mydic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mydic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,12 @@
 				3B2A7F5D1F5FDCB800D0A03E /* main.swift */,
 				3B2A7F641F5FDE4900D0A03E /* myint.swift */,
 				3B2A7F661F5FE1CB00D0A03E /* myary.swift */,
+				3B2A7F6A1F60F2B900D0A03E /* myary2.swift */,
+				3BAB87671F66350A009AF9E3 /* mydic.swift */,
+				3B2A7F6C1F6224FD00D0A03E /* poker.swift */,
+				3B2A7F6E1F623EEE00D0A03E /* mystr.swift */,
+				3BAB87631F66251F009AF9E3 /* mytuple.swift */,
+				3BAB87651F662934009AF9E3 /* myset.swift */,
 			);
 			path = Myswift05;
 			sourceTree = "<group>";
@@ -127,9 +145,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BAB87661F662934009AF9E3 /* myset.swift in Sources */,
 				3B2A7F671F5FE1CB00D0A03E /* myary.swift in Sources */,
+				3BAB87641F66251F009AF9E3 /* mytuple.swift in Sources */,
+				3B2A7F6D1F6224FD00D0A03E /* poker.swift in Sources */,
 				3B2A7F5E1F5FDCB800D0A03E /* main.swift in Sources */,
 				3B2A7F651F5FDE4900D0A03E /* myint.swift in Sources */,
+				3B2A7F6B1F60F2B900D0A03E /* myary2.swift in Sources */,
+				3B2A7F6F1F623EEE00D0A03E /* mystr.swift in Sources */,
+				3BAB87681F66350A009AF9E3 /* mydic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +287,7 @@
 				3B2A7F631F5FDCB800D0A03E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
