@@ -16,6 +16,8 @@
 		3BAB87641F66251F009AF9E3 /* mytuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87631F66251F009AF9E3 /* mytuple.swift */; };
 		3BAB87661F662934009AF9E3 /* myset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87651F662934009AF9E3 /* myset.swift */; };
 		3BAB87681F66350A009AF9E3 /* mydic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87671F66350A009AF9E3 /* mydic.swift */; };
+		3BAB87A21F676B8B009AF9E3 /* loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87A11F676B8B009AF9E3 /* loop.swift */; };
+		3BAB87A41F677452009AF9E3 /* switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87A31F677452009AF9E3 /* switch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +43,8 @@
 		3BAB87631F66251F009AF9E3 /* mytuple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mytuple.swift; sourceTree = "<group>"; };
 		3BAB87651F662934009AF9E3 /* myset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myset.swift; sourceTree = "<group>"; };
 		3BAB87671F66350A009AF9E3 /* mydic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mydic.swift; sourceTree = "<group>"; };
+		3BAB87A11F676B8B009AF9E3 /* loop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loop.swift; sourceTree = "<group>"; };
+		3BAB87A31F677452009AF9E3 /* switch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = switch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +81,13 @@
 				3B2A7F641F5FDE4900D0A03E /* myint.swift */,
 				3B2A7F661F5FE1CB00D0A03E /* myary.swift */,
 				3B2A7F6A1F60F2B900D0A03E /* myary2.swift */,
-				3BAB87671F66350A009AF9E3 /* mydic.swift */,
 				3B2A7F6C1F6224FD00D0A03E /* poker.swift */,
 				3B2A7F6E1F623EEE00D0A03E /* mystr.swift */,
 				3BAB87631F66251F009AF9E3 /* mytuple.swift */,
 				3BAB87651F662934009AF9E3 /* myset.swift */,
+				3BAB87671F66350A009AF9E3 /* mydic.swift */,
+				3BAB87A11F676B8B009AF9E3 /* loop.swift */,
+				3BAB87A31F677452009AF9E3 /* switch.swift */,
 			);
 			path = Myswift05;
 			sourceTree = "<group>";
@@ -152,6 +158,8 @@
 				3B2A7F5E1F5FDCB800D0A03E /* main.swift in Sources */,
 				3B2A7F651F5FDE4900D0A03E /* myint.swift in Sources */,
 				3B2A7F6B1F60F2B900D0A03E /* myary2.swift in Sources */,
+				3BAB87A21F676B8B009AF9E3 /* loop.swift in Sources */,
+				3BAB87A41F677452009AF9E3 /* switch.swift in Sources */,
 				3B2A7F6F1F623EEE00D0A03E /* mystr.swift in Sources */,
 				3BAB87681F66350A009AF9E3 /* mydic.swift in Sources */,
 			);

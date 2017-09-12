@@ -17,6 +17,8 @@ mystr() // 字串形別
 tupletest()
 myset()
 mydic()
+loop()
+switchtest()
 
 
 var v1 = 12

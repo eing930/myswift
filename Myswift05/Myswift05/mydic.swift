@@ -53,4 +53,19 @@ func mydic(){
         print("(\(x!),\(y!))")
     }
     
+    for k in d5.keys {
+    print(k)
+    }
+    for v in d5.values{
+    print(v)
+    }
+    if let v = d5["a"]{
+    print(v)
+    }else{
+        print("nothing")
+    }
+    
+    let isExist = d5.values.contains(81)
+    print(isExist)
+    
 }
