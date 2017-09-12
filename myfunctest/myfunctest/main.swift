@@ -9,5 +9,6 @@
 import Foundation
 
 ftest1()
+ftest2()
 print("Hello, World!")
 
