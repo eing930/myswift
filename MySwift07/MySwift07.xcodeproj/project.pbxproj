@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3BAB87CB1F68BD89009AF9E3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87CA1F68BD89009AF9E3 /* main.swift */; };
 		3BAB87D21F68BE08009AF9E3 /* enumtest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87D11F68BE08009AF9E3 /* enumtest.swift */; };
+		3BAB87D41F68C702009AF9E3 /* yvonneapi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87D31F68C702009AF9E3 /* yvonneapi.swift */; };
+		3BAB87D61F68D6FF009AF9E3 /* MyClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87D51F68D6FF009AF9E3 /* MyClasses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		3BAB87C71F68BD89009AF9E3 /* MySwift07 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MySwift07; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAB87CA1F68BD89009AF9E3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3BAB87D11F68BE08009AF9E3 /* enumtest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enumtest.swift; sourceTree = "<group>"; };
+		3BAB87D31F68C702009AF9E3 /* yvonneapi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yvonneapi.swift; sourceTree = "<group>"; };
+		3BAB87D51F68D6FF009AF9E3 /* MyClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClasses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				3BAB87CA1F68BD89009AF9E3 /* main.swift */,
 				3BAB87D11F68BE08009AF9E3 /* enumtest.swift */,
+				3BAB87D31F68C702009AF9E3 /* yvonneapi.swift */,
+				3BAB87D51F68D6FF009AF9E3 /* MyClasses.swift */,
 			);
 			path = MySwift07;
 			sourceTree = "<group>";
@@ -124,7 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BAB87D41F68C702009AF9E3 /* yvonneapi.swift in Sources */,
 				3BAB87D21F68BE08009AF9E3 /* enumtest.swift in Sources */,
+				3BAB87D61F68D6FF009AF9E3 /* MyClasses.swift in Sources */,
 				3BAB87CB1F68BD89009AF9E3 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
