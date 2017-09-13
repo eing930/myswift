@@ -22,13 +22,86 @@ func ftest2(){
     
     print(brad5(what: mult, x: 10, y:3))
     
-    let letters = "ABCDEFG"
-    let alpha = "D"
-    print(indexOf(source:letters, find:alpha))//Int(3),else return(傳回0 -1
+    //身份証產生
+    let letters = "ABCDEFGHJKLMNPQRSTUVXYWZIO"
+    let alpha:Character = "O"
+    let n12 = indexOf(source:letters, find:alpha) + 10
+    let n1 = n12 / 10
+    let n2 = n12 % 10
+    print("\(n1) : \(n2)")
+   
+    
+    let dic:[String:Int] = ["A":10,"B":11,"C":12,"D":13]
+    print(dic["A"]!)
     
     
     
+    let v1 = indexOf(source: letters, find: alpha)
+    print(v1)
     
+    brad7()
+    brad7(x: "111", "222", "333")
+    
+    brad8(value: 3)
+    brad8(value: 2)
+    
+    let (x, y, z) = brad9()
+    print("\(x) : \(y) : \(z)")
+    
+    
+
+    
+}
+func brad9() -> (Int, Double, String){
+    return(1, 2.3, "brad")
+}
+
+func brad8(value x : Int){
+print(x)
+}
+func brad7(x:String...){
+    for name in x {
+    print("brad7")
+    }
+
+}
+
+func indexOf(source:String, findlast:Character) -> Int{
+//    var ary:[Character] = Array()
+//    for c in source.characters{
+//    ary += [c]
+//    }
+    //print(ary)
+    
+    let cs = Array(source.characters)
+    print(cs)
+    
+//    for i in stride(from: 1, to: 10, by: 3){
+//    print(i)
+//        for i in stride(from: 10, through: 1, by:-1 ){
+//        print(i)
+//            
+//            for i in stride(from: 10, through: 1, by: -1){
+//            print(i)
+//            }
+//        }
+//    }
+//    
+    for i in stride(from: cs.count-1, through: 0, by: -1){
+    print(i)
+    }
+ return -1
+}
+func indexOf(source:String, find:Character) -> Int{
+    var ret = -1, i = 0
+    for c in source.characters {
+        if c == find {
+            ret = i
+        break
+        }
+        i += 1
+    }
+    return ret
 }
 func brad5(what:(Int,Int) ->Int, x:Int, y:Int) -> String{
     print("start....")
@@ -62,3 +135,4 @@ func brad2(y:Int){
 func brad3(z:Int){
     print("brad3:\(z)")
 }
+

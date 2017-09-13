@@ -1,15 +1,12 @@
 //
 //  main.swift
-//  myfunctest
+//  MySwift07
 //
-//  Created by user20 on 2017/9/12.
+//  Created by user20 on 2017/9/13.
 //  Copyright © 2017年 Yvonne Big. All rights reserved.
 //
 
 import Foundation
 
-ftest1()
-ftest2()
-ftest3()
-
-
+print("Hello, World!")
+enumtest()
