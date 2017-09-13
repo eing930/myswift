@@ -11,6 +11,7 @@
 		3BAB87D21F68BE08009AF9E3 /* enumtest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87D11F68BE08009AF9E3 /* enumtest.swift */; };
 		3BAB87D41F68C702009AF9E3 /* yvonneapi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87D31F68C702009AF9E3 /* yvonneapi.swift */; };
 		3BAB87D61F68D6FF009AF9E3 /* MyClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87D51F68D6FF009AF9E3 /* MyClasses.swift */; };
+		3BAB87D81F6918A9009AF9E3 /* TWId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87D71F6918A9009AF9E3 /* TWId.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		3BAB87D11F68BE08009AF9E3 /* enumtest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enumtest.swift; sourceTree = "<group>"; };
 		3BAB87D31F68C702009AF9E3 /* yvonneapi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yvonneapi.swift; sourceTree = "<group>"; };
 		3BAB87D51F68D6FF009AF9E3 /* MyClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClasses.swift; sourceTree = "<group>"; };
+		3BAB87D71F6918A9009AF9E3 /* TWId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TWId.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				3BAB87D11F68BE08009AF9E3 /* enumtest.swift */,
 				3BAB87D31F68C702009AF9E3 /* yvonneapi.swift */,
 				3BAB87D51F68D6FF009AF9E3 /* MyClasses.swift */,
+				3BAB87D71F6918A9009AF9E3 /* TWId.swift */,
 			);
 			path = MySwift07;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 				3BAB87D41F68C702009AF9E3 /* yvonneapi.swift in Sources */,
 				3BAB87D21F68BE08009AF9E3 /* enumtest.swift in Sources */,
 				3BAB87D61F68D6FF009AF9E3 /* MyClasses.swift in Sources */,
+				3BAB87D81F6918A9009AF9E3 /* TWId.swift in Sources */,
 				3BAB87CB1F68BD89009AF9E3 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

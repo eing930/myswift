@@ -103,3 +103,10 @@ print("-----------")
 b8.m1()
 print(b8.x1)
 print(Brad06.x1)
+
+var myId = "A123456789"
+if TWId.isRightId(id: myId) {
+    var id1 = TWId()
+}else{
+    var id2 = TWId()
+}
