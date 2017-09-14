@@ -111,15 +111,15 @@ print(id1.gender ? "M" : "F")
 
 let id2 = TWId(gender: false)  //指定男或女 1/2
 print(id2.getId())
-print(id1.gender ? "M" : "F")
+print(id2.gender ? "M" : "F")
 
 let id3 = TWId(area: "B")  // 指字區域
 print(id3.getId())
-print(id1.gender ? "M" : "F")
+print(id3.gender ? "M" : "F")
 
 let id4 = TWId()  //都不指定
 print(id4.getId())
-print(id1.gender ? "M" : "F")
+print(id4.gender ? "M" : "F")
 
 let str = "A123456787"
 let id5: TWId? = TWId(id: str)
