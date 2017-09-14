@@ -110,3 +110,9 @@ if TWId.isRightId(id: myId) {
 }else{
     var id2 = TWId()
 }
+
+if TWId.isRightId(id: "Y120239847") {
+    print("OK")
+}else{
+    print("XX")
+}
