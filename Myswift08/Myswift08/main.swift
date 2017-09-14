@@ -10,3 +10,5 @@ import Foundation
 
 print("Hello, World!")
 
+var s1 = Sub1()
+var s2 = Sub2()
