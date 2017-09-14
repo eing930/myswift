@@ -104,15 +104,32 @@ b8.m1()
 print(b8.x1)
 print(Brad06.x1)
 
-var myId = "A123456789"
-if TWId.isRightId(id: myId) {
-    var id1 = TWId()
-}else{
-    var id2 = TWId()
-}
 
-if TWId.isRightId(id: "Y120239847") {
-    print("OK")
-}else{
-    print("XX")
-}
+let id1 = TWId(area: "A" , gender: true)
+print(id1.getId())
+print(id1.gender ? "M" : "F")
+
+let id2 = TWId(gender: false)  //指定男或女 1/2
+print(id2.getId())
+print(id1.gender ? "M" : "F")
+
+let id3 = TWId(area: "B")  // 指字區域
+print(id3.getId())
+print(id1.gender ? "M" : "F")
+
+let id4 = TWId()  //都不指定
+print(id4.getId())
+print(id1.gender ? "M" : "F")
+
+let str = "A123456787"
+let id5: TWId? = TWId(id: str)
+print(id5?.getId())
+
+
+//if TWId.isRightId(id: "Y120239847") {
+//    print("OK")
+//}else{
+//    print("XX")
+//}
+
+

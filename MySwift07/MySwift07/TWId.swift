@@ -9,19 +9,27 @@
 import Foundation   //建構式  物件導向
 
 class TWId {
+    private static let letters = "ABCDEFGHJKLMNPQRSTUVXYWZIO"
     private var id:String
-    init(){
-        
-        id = "A123456789"
+    var gender:Bool {   //性別碼如何產生判斷男生女生
+       return BradString.subString(source: id, from: 1, to: 2) == "1"
+       
     }
-    init(area:String){
-        
-        id = "A123456789"
+   
+    convenience init(){ //性別碼亂數
+            let rand = arc4random_uniform(2)  // 0或1
+            self.init(gender: rand == 0)
     }
-    init(gender:Bool){
-        id = "A123456789"
+    convenience init(area:String){
+     let rand = arc4random_uniform(2)  // 0或1
+     self.init(area: area, gender: rand == 0)
     }
-    init(area:String, gender:Bool){
+    convenience init(gender:Bool){  //前面要加上「 convenience 」
+        let rand = Int(arc4random_uniform(26))  //產生出 a-z的 0...25的英文亂碼
+        let areaId = BradString.subString(source: TWId.letters, from: rand, to: rand + 1)
+        self.init(area: areaId, gender: gender) //呼叫自己的建構式
+        }
+        init(area:String, gender:Bool){
         id = area
         id += (gender) ? "1" : "2"
         for _ in 3...9 {
@@ -34,22 +42,22 @@ class TWId {
             }
         }
     }
-    init(id:String){
-        
-        self.id = id
+    init?(id:String){
+        if TWId.isRightId(id: id) {
+            self.id = id
+        }else{
+            return nil  //用return nil 可能會是空的物件 所以在init後面要再加上「?」
+        }
     }
+    
+    func getId() -> String {return id}
     func getArea() -> String {
         
         return "台中市"
     }
-    func getGender() -> Bool {
-        
-        return true
-    }
     static func isRightId(id:String) -> Bool {
         var isRight = false;
         if let _ = id.range(of: "^[A-Z][12][0-9]{8}$", options: .regularExpression){
-            let letters = "ABCDEFGHJKLMNPQRSTUVXYWZIO"
             
             let cs = Array(id.characters)   // Array<Character>
             
