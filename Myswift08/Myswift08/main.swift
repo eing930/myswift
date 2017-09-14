@@ -18,3 +18,8 @@ var s3 = Sub13(112)
 print("------------")
 var s131 = Sub131()
 print("------------")
+var s31 = Sub31(2)
+
+test()
+test2()
+abc()

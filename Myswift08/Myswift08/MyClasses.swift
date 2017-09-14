@@ -59,3 +59,18 @@ class Sub22 : Super2{
         super.init(2)
     }
 }
+
+class Super3 {
+    init(){
+        print("Super3:init()")
+    }
+}
+class Sub31 : Super3 {
+    override init(){
+        print("Sub31:init()")
+    }
+    convenience init(_ : Int ){
+        print("Sub31:init(Int)")
+        self.init()
+    }
+}

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		3BAB87E81F6A2C31009AF9E3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87E71F6A2C31009AF9E3 /* main.swift */; };
 		3BAB87EF1F6A2E7D009AF9E3 /* MyClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87EE1F6A2E7D009AF9E3 /* MyClasses.swift */; };
+		3BAB87F11F6A5397009AF9E3 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87F01F6A5397009AF9E3 /* test.swift */; };
+		3BAB87F31F6A694D009AF9E3 /* test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87F21F6A694D009AF9E3 /* test2.swift */; };
+		3BAB87F51F6A6F25009AF9E3 /* test3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB87F41F6A6F25009AF9E3 /* test3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +30,9 @@
 		3BAB87E41F6A2C31009AF9E3 /* Myswift08 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Myswift08; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAB87E71F6A2C31009AF9E3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3BAB87EE1F6A2E7D009AF9E3 /* MyClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClasses.swift; sourceTree = "<group>"; };
+		3BAB87F01F6A5397009AF9E3 /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		3BAB87F21F6A694D009AF9E3 /* test2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test2.swift; sourceTree = "<group>"; };
+		3BAB87F41F6A6F25009AF9E3 /* test3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 			children = (
 				3BAB87E71F6A2C31009AF9E3 /* main.swift */,
 				3BAB87EE1F6A2E7D009AF9E3 /* MyClasses.swift */,
+				3BAB87F01F6A5397009AF9E3 /* test.swift */,
+				3BAB87F21F6A694D009AF9E3 /* test2.swift */,
+				3BAB87F41F6A6F25009AF9E3 /* test3.swift */,
 			);
 			path = Myswift08;
 			sourceTree = "<group>";
@@ -124,8 +133,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BAB87F31F6A694D009AF9E3 /* test2.swift in Sources */,
 				3BAB87EF1F6A2E7D009AF9E3 /* MyClasses.swift in Sources */,
+				3BAB87F11F6A5397009AF9E3 /* test.swift in Sources */,
 				3BAB87E81F6A2C31009AF9E3 /* main.swift in Sources */,
+				3BAB87F51F6A6F25009AF9E3 /* test3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
